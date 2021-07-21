@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:id="@+id/layout_edit_content">
+    <EditText
+        android:id="@+id/edit_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Select a item to edit" />
+
+    <Button
+        android:id="@+id/button_update_item"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/edit_text_content"
+        android:background="@drawable/list_shape"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonText"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_delete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/edit_text_content"
+        android:layout_toRightOf="@+id/button_update_item"
+        android:background="@drawable/list_shape"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonText"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"/>
+
+    <Button
+        android:id="@+id/button_archive_item"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/edit_text_content"
+        android:layout_toRightOf="@id/button_delete_item"
+        android:background="@drawable/list_shape"
+        android:text="Archive"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonText"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_complete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/button_archive_item"
+        android:text="Completed"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonText"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+</RelativeLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_prefs"
+        android:title="@string/menu_prefs"
+        />
+    <item android:id="@+id/menu_item_todo_main"
+        android:title= "@string/menu_main_screen"
+        />
+    <item android:id="@+id/menu_item_view_archived"
+        android:title= "@string/menu_view_archived"
+        />
+</menu>

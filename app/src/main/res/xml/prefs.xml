@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="login_name"
+        android:title="Login Name"
+        android:summary="Enter your alias here" />
+    <EditTextPreference
+        android:key="login_password"
+        android:title="Login Password"
+        android:summary="Enter your password here"
+        android:password="true"/>
+
+    <ListPreference
+        android:key="main_bg_color"
+        android:title="Background Color"
+        android:summary="Choose your background color (#RRGGBB)"
+        android:defaultValue="#ffffff"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"/>
+    <ListPreference
+        android:key="text_size"
+        android:title="Font Size"
+        android:summary="Choose text size here"
+        android:defaultValue="25"
+        android:entries="@array/text_sizes"
+        android:entryValues="@array/size_values"/>
+
+</PreferenceScreen>

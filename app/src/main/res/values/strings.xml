@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab02TodoOrNot</string>
+    <string name="spinner_prompt">Select a List...</string>
+    <string name="title_activity_edit_content">EditContentActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="menu_prefs">Preferences</string>
+    <string name="menu_main_screen">Todo Main</string>
+    <string name="menu_view_archived">View Archived</string>
+    <string name="preference_login_name_key">ALIAS</string>
+    <string name="preference_password_key">PASSWORD</string>
+</resources>
